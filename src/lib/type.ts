@@ -10,3 +10,12 @@ interface Patient {
   nextAppointment: string;
   avatar: string;
 }
+
+
+interface GoogleUser {
+  id: string;
+  name: string;
+  email: string;
+  avatar: string;
+  token: string;
+}
